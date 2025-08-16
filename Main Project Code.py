@@ -124,7 +124,7 @@ def document_scanner(SOURCE_IMAGE_FILE_PATH):
 def perform_ocr(image):
     """this functions gives us the OCR results from scanned image"""
     #Configuration - Specifying the 
-    genai.configure(api_key='AIzaSyAZpIVOAW9BQLX3kx6yN6oxqzVsKpQrUcM')
+    genai.configure(api_key='# Add Your Own Gimini API key Here')
     #Choose a Gemini model.
     model = genai.GenerativeModel(model_name="gemini-2.0-flash-exp")
     # Create an in-memory image object from the NumPy array
