@@ -1,0 +1,26 @@
+Imports Required To make The Project Work
+
+google-generativeai
+imutils
+numpy --------------------> please downgrade numpy if necessary.
+opencv-python
+openpyxl
+pandas
+pillow
+scipy
+
+----------------------------------------
+How to Use the Program?
+
+1. Run the "MAIN PROJECT CODE"
+2. GUI SHOULD OPEN UP
+3. Load - DATA ENTRY SHEET FROM THIS DIRECTORY INTO THE ENTRY FIELD - excel sheet into the GUI
+4. Load - MASTER STUDENT DATABASE from this directory - excel sheet into the GUI
+5. Load - "Test Images" folder into the GUI
+
+6. Click Buttons in the GUI to see the project work.
+----------------------------------------
+General Notes
+
+# Each image may take a few seconds to process
+# Close excel sheet after inspection and reopen to check data entry results.
